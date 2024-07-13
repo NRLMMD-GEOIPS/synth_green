@@ -1,0 +1,52 @@
+ | # # # Distribution Statement A. Approved for public release. Distribution unlimited.
+ | # # #
+ | # # # Author:
+ | # # # Naval Research Laboratory, Marine Meteorology Division
+ | # # #
+ | # # # This program is free software: you can redistribute it and/or modify it under
+ | # # # the terms of the NRLMMD License included with this program. This program is
+ | # # # distributed WITHOUT ANY WARRANTY; without even the implied warranty of
+ | # # # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the included license
+ | # # # for more details. If you did not receive the license, for more information see:
+ | # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
+
+Version 1.12.1 (2024-01-16)
+***************************
+
+* Installation updates
+
+  * Call build.py from pyproject.toml
+  * Ensure libraries are copied to/used from the correct locations
+  * Remove setup.sh
+* Add release note for v1.12.1
+
+
+Installation Updates
+====================
+
+Call build.py from pyproject.toml, and ensure libraries are in correct locations
+--------------------------------------------------------------------------------
+
+Ensure build.py returns non-zero on failure.
+
+::
+
+  modified: pyproject.toml
+  new: build.py
+  removed: setup.sh
+
+Release Process
+===============
+
+Add release note for v1.12.1
+----------------------------
+
+*From GEOIPS#458: 2024-02-09, 1.12.1 release*
+
+All updates until the next release (v1.12.1) will be included in
+this release note.
+
+::
+
+  modified: docs/source/releases/v1.12.1.rst
+  modified: docs/source/releases/index.rst

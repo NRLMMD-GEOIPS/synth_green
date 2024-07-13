@@ -1,4 +1,4 @@
-# # # Distribution Statement A. Approved for public release. Distribution unlimited.
+# # # Distribution Statement A. Approved for public release. Distribution is unlimited.
 # # #
 # # # Author:
 # # # Naval Research Laboratory, Marine Meteorology Division
@@ -10,20 +10,7 @@
 # # # for more details. If you did not receive the license, for more information see:
 # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
 
-#!/bin/bash
-
-if [[ -z "$GEOIPS_PACKAGES_DIR" ]]; then
-    echo "Must define GEOIPS_PACKAGES_DIR environment variable prior to setting up geoips packages"
-    exit 1
-fi
-
-if [[ "$1" == "install" ]]; then
-
-    tar -xzvf $GEOIPS_PACKAGES_DIR/synth_green/dat.tgz
-    pip install -e $GEOIPS_PACKAGES_DIR/synth_green
-
-else
-    echo "UNRECOGNIZED COMMAND $1"
-    exit 1
-fi
-
+# DO NOT EDIT
+# managed by poetry-dynamic-versioning
+__version__ = "0.0.0"
+__version_tuple__ = (0, 0, 0)
