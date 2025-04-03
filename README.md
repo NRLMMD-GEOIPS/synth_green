@@ -10,6 +10,10 @@
     # # # for more details. If you did not receive the license, for more information see:
     # # # https://github.com/U-S-NRL-Marine-Meteorology-Division/
 
+| ⚠️ **Warning** |
+| -------------- |
+| This package is an early release and should be expected to change in the future. We don’t expect the functionality to change in significant ways. We intend to improve the installation process, consolidate packages and, potentially, convert Fortran routines to Python to avoid complexity in installation. |
+
 synth_green GeoIPS Plugin
 =========================
 
