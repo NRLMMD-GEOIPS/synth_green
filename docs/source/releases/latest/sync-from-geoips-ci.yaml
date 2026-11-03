@@ -1,0 +1,32 @@
+continuous integration:
+- title: 'Sync config and CI from geoips_ci/sync'
+  description: |
+    This repo was significantly out of date. This PR copies
+    all required config and CI files from geoips_ci/sync to
+    bring this to a working state for CI.
+  files:
+    added:
+      - '.cspell.json'
+      - '.flake8'
+      - '.github/CODEOWNERS'
+      - '.github/workflows/deploy-docs.yaml'
+      - '.github/workflows/package-and-publish.yaml'
+      - '.github/workflows/status-check.yaml'
+      - '.github/workflows/tag-and-release.yaml'
+      - 'CHANGELOG.rst'
+      - 'CODE_OF_CONDUCT.md'
+      - 'bandit.yml'
+      - 'pytest.ini'
+      - 'tests/conftest.py'
+    modified:
+      - '.gitignore'
+      - 'DISTRIBUTION'
+      - 'LICENSE'
+    deleted: []
+    moved: []
+  related-issue:
+    number: null
+    repo_url: 'https://github.com/NRLMMD-GEOIPS/synth_green'
+  date:
+    start: 2026-10-05
+    finish: 2026-10-05
